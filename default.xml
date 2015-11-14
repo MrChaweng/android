@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r24" />
+           revision="refs/tags/android-5.1.1_r26" />
 
   <remote  name="github"
            fetch=".."
@@ -590,8 +590,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
-  <project path="kernel/lava/iris708" name="MrChaweng/kernel_source" remote="github" revision="android-5.1.1_r24" />
-<project path="device/lava/iris708" name="MrChaweng/device_source" remote="github" revision="android-5.1.1_r24" />
-<project path="device/lava/iris708-common" name="MrChaweng/device-common_source" remote="github" revision="android-5.1.1_r24" />
-<project path="vendor/lava" name="MrChaweng/vendor" remote="github" revision="android-5.1.1_r24" />
+  <project path="kernel/lava/iris708" name="MrChaweng/kernel_source" remote="github" revision="android-5.1.1_r26" />
+<project path="device/lava/iris708" name="MrChaweng/device_source" remote="github" revision="android-5.1.1_r26" />
+<project path="device/lava/iris708-common" name="MrChaweng/device-common_source" remote="github" revision="android-5.1.1_r26" />
+<project path="vendor/lava" name="MrChaweng/vendor" remote="github" revision="android-5.1.1_r26" />
 </manifest>
